@@ -1,0 +1,40 @@
+﻿Log file open, 02/14/17 15:16:44
+LogModuleManager:Warning: ModuleManager: Module 'XMPP' not found - its StaticallyLinkedModuleInitializers function is null.
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogModuleManager:Warning: ModuleManager: Module 'SpriteStudio5' not found - its StaticallyLinkedModuleInitializers function is null.
+LogExit: Preparing to exit.
+LogModuleManager: Shutting down and abandoning module OculusRift (21)
+LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+LogModuleManager: Shutting down and abandoning module SSL (17)
+LogModuleManager: Shutting down and abandoning module HTTP (16)
+LogModuleManager: Shutting down and abandoning module ShaderCore (14)
+LogModuleManager: Shutting down and abandoning module Landscape (13)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (12)
+LogModuleManager: Shutting down and abandoning module OpenGLDrv (11)
+LogModuleManager: Shutting down and abandoning module D3D11RHI (10)
+LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (9)
+LogModuleManager: Shutting down and abandoning module Renderer (8)
+LogModuleManager: Shutting down and abandoning module Engine (7)
+LogModuleManager: Shutting down and abandoning module CoreUObject (6)
+LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+LogModuleManager: Shutting down and abandoning module PakFile (1)
+LogExit: Exiting.
+Log file closed, 02/14/17 15:16:46

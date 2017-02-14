@@ -1,0 +1,362 @@
+Automation.ParseCommandLine: Parsing command line: -ScriptsForProject="J:/Unreal Projects/SsPlayerExamples/SsPlayerExamples.uproject" BuildCookRun -project="J:/Unreal Projects/SsPlayerExamples/SsPlayerExamples.uproject" -noP4 -clientconfig=Development -serverconfig=Development -nocompile -nocompileeditor -installed -ue4exe=UE4Editor-Cmd.exe -utf8output -platform=Win64 -targetplatform=Win64 -cookonthefly -map= -compressed -stage -deploy -cmdline=" -Messaging" -device=WindowsNoEditor@HOME-PC -addcmdline="-SessionId=60C7EB314D0B25D0C475AFB6A7AEFBE0 -SessionOwner='KENE' -SessionName='HOME-PC' " -run
+Automation.Process: Setting up command environment.
+InternalUtils.SafeFileExists:  SafeFileExists C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNET\AutomationTool.exe=True
+InternalUtils.GetEnvironmentVariable:  GetEnvironmentVariable uebp_LOCAL_ROOT=
+InternalUtils.GetEnvironmentVariable:  GetEnvironmentVariable uebp_LOCAL_ROOT=C:/Program Files (x86)/Epic Games/4.14
+CommandUtils.SetEnvVar:  SetEnvVar uebp_EngineSavedFolder=C:/Program Files (x86)/Epic Games/4.14/Engine/Programs/AutomationTool/Saved
+InternalUtils.GetEnvironmentVariable:  GetEnvironmentVariable uebp_LogFolder=
+InternalUtils.GetEnvironmentVariable:  GetEnvironmentVariable uebp_LOCAL_ROOT=C:/Program Files (x86)/Epic Games/4.14
+InternalUtils.SafeDeleteFile:  SafeDeleteFile G:\Users\KENE\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+(x86)+Epic+Games+4.14\Client.log
+InternalUtils.SafeDeleteFile:  SafeDeleteFile G:\Users\KENE\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+(x86)+Epic+Games+4.14\FinalCopy_NonUFSFiles.txt
+InternalUtils.SafeDeleteFile:  SafeDeleteFile G:\Users\KENE\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+(x86)+Epic+Games+4.14\FinalCopy_NonUFSFilesDebug.txt
+InternalUtils.SafeDeleteFile:  SafeDeleteFile G:\Users\KENE\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+(x86)+Epic+Games+4.14\FinalCopy_UFSFiles.txt
+InternalUtils.SafeDeleteFile:  SafeDeleteFile G:\Users\KENE\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+(x86)+Epic+Games+4.14\Manifest_DebugFiles_Win64.txt
+InternalUtils.SafeDeleteFile:  SafeDeleteFile G:\Users\KENE\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+(x86)+Epic+Games+4.14\Manifest_NonUFSFiles_Win64.txt
+InternalUtils.SafeDeleteFile:  SafeDeleteFile G:\Users\KENE\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+(x86)+Epic+Games+4.14\Server.log
+InternalUtils.SafeFileExists:  SafeFileExists C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNET\AutomationTool.exe=True
+InternalUtils.GetEnvironmentVariable:  GetEnvironmentVariable uebp_LOCAL_ROOT=C:/Program Files (x86)/Epic Games/4.14
+InternalUtils.GetEnvironmentVariable:  GetEnvironmentVariable uebp_EngineSavedFolder=C:/Program Files (x86)/Epic Games/4.14/Engine/Programs/AutomationTool/Saved
+InternalUtils.GetEnvironmentVariable:  GetEnvironmentVariable uebp_EngineSavedFolder=C:/Program Files (x86)/Epic Games/4.14/Engine/Programs/AutomationTool/Saved
+InternalUtils.GetEnvironmentVariable:  GetEnvironmentVariable uebp_CSVFile=
+InternalUtils.GetEnvironmentVariable:  GetEnvironmentVariable uebp_LogFolder=G:/Users/KENE/AppData/Roaming/Unreal Engine/AutomationTool/Logs/C+Program+Files+(x86)+Epic+Games+4.14
+InternalUtils.SafeFileExists:  SafeFileExists C:\WINDOWS\system32\robocopy.exe=True
+InternalUtils.SafeFileExists:  SafeFileExists C:\WINDOWS\system32\mount.exe=False
+InternalUtils.SafeFileExists:  SafeFileExists C:\WINDOWS\Sysnative\mount.exe=False
+InternalUtils.SafeFileExists:  SafeFileExists C:\WINDOWS\system32\cmd.exe=True
+CommandUtils.SetEnvVar:  SetEnvVar MallocNanoZone=0
+InternalUtils.SafeFileExists:  SafeFileExists J:\Unreal Projects\SsPlayerExamples\SsPlayerExamples.uproject=True
+InternalUtils.SafeFileExists:  SafeFileExists J:\Unreal Projects\SsPlayerExamples\SsPlayerExamples.uproject=True
+BuildCookRun.SetupParams: Setting up ProjectParams for J:\Unreal Projects\SsPlayerExamples\SsPlayerExamples.uproject
+ProjectParams.ValidateAndLog:  Project Params **************
+ProjectParams.ValidateAndLog:  AdditionalServerMapParams=
+ProjectParams.ValidateAndLog:  Archive=False
+ProjectParams.ValidateAndLog:  ArchiveMetaData=False
+ProjectParams.ValidateAndLog:  CreateAppBundle=True
+ProjectParams.ValidateAndLog:  BaseArchiveDirectory=J:\Unreal Projects\SsPlayerExamples\ArchivedBuilds
+ProjectParams.ValidateAndLog:  BaseStageDirectory=J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds
+ProjectParams.ValidateAndLog:  Build=False
+ProjectParams.ValidateAndLog:  Cook=False
+ProjectParams.ValidateAndLog:  Clean=
+ProjectParams.ValidateAndLog:  Client=False
+ProjectParams.ValidateAndLog:  ClientConfigsToBuild=Development
+ProjectParams.ValidateAndLog:  ClientCookedTargets=UE4Game
+ProjectParams.ValidateAndLog:  ClientTargetPlatform=Win64
+ProjectParams.ValidateAndLog:  Compressed=True
+ProjectParams.ValidateAndLog:  UseDebugParamForEditorExe=False
+ProjectParams.ValidateAndLog:  CookOnTheFly=True
+ProjectParams.ValidateAndLog:  CookOnTheFlyStreaming=False
+ProjectParams.ValidateAndLog:  UnversionedCookedContent=True
+ProjectParams.ValidateAndLog:  EncryptIniFiles=False
+ProjectParams.ValidateAndLog:  SkipCookingEditorContent=False
+ProjectParams.ValidateAndLog:  NumCookersToSpawn=0
+ProjectParams.ValidateAndLog:  GeneratePatch=False
+ProjectParams.ValidateAndLog:  CreateReleaseVersion=
+ProjectParams.ValidateAndLog:  BasedOnReleaseVersion=
+ProjectParams.ValidateAndLog:  DLCName=
+ProjectParams.ValidateAndLog:  DLCIncludeEngineContent=False
+ProjectParams.ValidateAndLog:  DiffCookedContentPath=
+ProjectParams.ValidateAndLog:  AdditionalCookerOptions=
+ProjectParams.ValidateAndLog:  DedicatedServer=False
+ProjectParams.ValidateAndLog:  DirectoriesToCook=
+ProjectParams.ValidateAndLog:  CulturesToCook=<Not Specified> (Use Defaults)
+ProjectParams.ValidateAndLog:  EditorTargets=
+ProjectParams.ValidateAndLog:  Foreign=False
+ProjectParams.ValidateAndLog:  IsCodeBasedProject=False
+ProjectParams.ValidateAndLog:  IsProgramTarget=False
+ProjectParams.ValidateAndLog:  IterativeCooking=False
+ProjectParams.ValidateAndLog:  CookAll=False
+ProjectParams.ValidateAndLog:  CookPartialGC=False
+ProjectParams.ValidateAndLog:  CookMapsOnly=False
+ProjectParams.ValidateAndLog:  Deploy=True
+ProjectParams.ValidateAndLog:  IterativeDeploy=False
+ProjectParams.ValidateAndLog:  FastCook=False
+ProjectParams.ValidateAndLog:  LogWindow=False
+ProjectParams.ValidateAndLog:  Manifests=False
+ProjectParams.ValidateAndLog:  MapToRun=
+ProjectParams.ValidateAndLog:  NoClient=False
+ProjectParams.ValidateAndLog:  NumClients=0
+ProjectParams.ValidateAndLog:  NoDebugInfo=False
+ProjectParams.ValidateAndLog:  NoCleanStage=False
+ProjectParams.ValidateAndLog:  NoXGE=False
+ProjectParams.ValidateAndLog:  MapsToCook=
+ProjectParams.ValidateAndLog:  Pak=False
+ProjectParams.ValidateAndLog:  Package=False
+ProjectParams.ValidateAndLog:  NullRHI=False
+ProjectParams.ValidateAndLog:  FakeClient=False
+ProjectParams.ValidateAndLog:  EditorTest=False
+ProjectParams.ValidateAndLog:  RunAutomationTests=False
+ProjectParams.ValidateAndLog:  RunAutomationTest=
+ProjectParams.ValidateAndLog:  RunTimeoutSeconds=0
+ProjectParams.ValidateAndLog:  CrashIndex=0
+ProjectParams.ValidateAndLog:  ProgramTargets=
+ProjectParams.ValidateAndLog:  ProjectBinariesFolder=C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\Win64
+ProjectParams.ValidateAndLog:  ProjectBinariesPath=C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\Win64
+ProjectParams.ValidateAndLog:  ProjectGameExeFilename=C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\Win64\UE4Game.exe
+ProjectParams.ValidateAndLog:  ProjectGameExePath=C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\Win64\UE4Game.exe
+ProjectParams.ValidateAndLog:  Distribution=False
+ProjectParams.ValidateAndLog:  Prebuilt=False
+ProjectParams.ValidateAndLog:  Prereqs=False
+ProjectParams.ValidateAndLog:  AppLocalDirectory=
+ProjectParams.ValidateAndLog:  NoBootstrapExe=False
+ProjectParams.ValidateAndLog:  RawProjectPath=J:\Unreal Projects\SsPlayerExamples\SsPlayerExamples.uproject
+ProjectParams.ValidateAndLog:  Run=True
+ProjectParams.ValidateAndLog:  ServerConfigsToBuild=Development
+ProjectParams.ValidateAndLog:  ServerCookedTargets=
+ProjectParams.ValidateAndLog:  ServerTargetPlatform=Win64
+ProjectParams.ValidateAndLog:  ShortProjectName=SsPlayerExamples
+ProjectParams.ValidateAndLog:  SignedPak=False
+ProjectParams.ValidateAndLog:  SignPak=
+ProjectParams.ValidateAndLog:  SkipCook=False
+ProjectParams.ValidateAndLog:  SkipCookOnTheFly=False
+ProjectParams.ValidateAndLog:  SkipPak=False
+ProjectParams.ValidateAndLog:  SkipStage=False
+ProjectParams.ValidateAndLog:  Stage=True
+ProjectParams.ValidateAndLog:  bUsesSteam=False
+ProjectParams.ValidateAndLog:  bUsesCEF3=False
+ProjectParams.ValidateAndLog:  bUsesSlate=True
+ProjectParams.ValidateAndLog:  bDebugBuildsActuallyUseDebugCRT=False
+ProjectParams.ValidateAndLog:  bTreatNonShippingBinariesAsDebugFiles=False
+ProjectParams.ValidateAndLog:  NativizeAssets=False
+ProjectParams.ValidateAndLog:  Project Params **************
+InternalUtils.SafeFileExists:  SafeFileExists J:\Unreal Projects\SsPlayerExamples\SsPlayerExamples.uproject=True
+InternalUtils.SafeFileExists:  SafeFileExists J:\Unreal Projects\SsPlayerExamples\SsPlayerExamples.uproject=True
+InternalUtils.SafeFileExists:  SafeFileExists J:\Unreal Projects\SsPlayerExamples\SsPlayerExamples.uproject=True
+InternalUtils.SafeFileExists:  SafeFileExists J:\Unreal Projects\SsPlayerExamples\SsPlayerExamples.uproject=True
+Project.Cook: ********** COOK COMMAND STARTED **********
+InternalUtils.SafeFileExists:  SafeFileExists C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\Win64\UE4Editor-Cmd.exe=True
+InternalUtils.SafeFileExists:  SafeFileExists C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\Win64\UE4Editor.exe=True
+CommandUtils.Run: Run: C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\Win64\UE4Editor.exe "J:\Unreal Projects\SsPlayerExamples\SsPlayerExamples.uproject" -run=cook -cookonthefly -unattended -CrashForUAT -FORCELOGFLUSH -log -abslog="G:\Users\KENE\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+(x86)+Epic+Games+4.14\Server.log" -SessionId=60C7EB314D0B25D0C475AFB6A7AEFBE0 -SessionOwner="KENE" -SessionName="HOME-PC" 
+Project.Cook: Waiting a few seconds for the server to start...
+Project.Cook: ********** COOK COMMAND COMPLETED **********
+InternalUtils.SafeFileExists:  SafeFileExists J:\Unreal Projects\SsPlayerExamples\SsPlayerExamples.uproject=True
+Project.CopyBuildToStagingDirectory: ********** STAGE COMMAND STARTED **********
+InternalUtils.SafeFileExists:  SafeFileExists J:\Unreal Projects\SsPlayerExamples\SsPlayerExamples.uproject=True
+InternalUtils.SafeCreateDirectory:  SafeCreateDirectory J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor
+Project.LogDeploymentContext:  Deployment Context **************
+Project.LogDeploymentContext:  ArchiveDirectory = WindowsNoEditor
+Project.LogDeploymentContext:  RawProjectPath = J:\Unreal Projects\SsPlayerExamples\SsPlayerExamples.uproject
+Project.LogDeploymentContext:  IsCodeBasedUprojectFile = False
+Project.LogDeploymentContext:  DedicatedServer = False
+Project.LogDeploymentContext:  Stage = True
+Project.LogDeploymentContext:  StageTargetPlatform = Win64
+Project.LogDeploymentContext:  LocalRoot = C:\Program Files (x86)\Epic Games\4.14
+Project.LogDeploymentContext:  ProjectRoot = J:\Unreal Projects\SsPlayerExamples
+Project.LogDeploymentContext:  PlatformDir = Win64
+Project.LogDeploymentContext:  StageProjectRoot = J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\SsPlayerExamples
+Project.LogDeploymentContext:  ShortProjectName = SsPlayerExamples
+Project.LogDeploymentContext:  StageDirectory = J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor
+Project.LogDeploymentContext:  SourceRelativeProjectRoot = SsPlayerExamples
+Project.LogDeploymentContext:  RelativeProjectRootForStage = SsPlayerExamples
+Project.LogDeploymentContext:  RelativeProjectRootForUnrealPak = SsPlayerExamples
+Project.LogDeploymentContext:  ProjectArgForCommandLines = ../../../SsPlayerExamples/SsPlayerExamples.uproject
+Project.LogDeploymentContext:  RuntimeRootDir = J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor
+Project.LogDeploymentContext:  RuntimeProjectRootDir = J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\SsPlayerExamples
+Project.LogDeploymentContext:  UProjectCommandLineArgInternalRoot = ../../../
+Project.LogDeploymentContext:  PakFileInternalRoot = ../../../
+Project.LogDeploymentContext:  UnrealFileServerInternalRoot = ../../../
+Project.LogDeploymentContext:  PlatformUsesChunkManifests = False
+Project.LogDeploymentContext:  End Deployment Context **************
+Project.CreateStagingManifest: Creating Staging Manifest...
+InternalUtils.SafeFindFiles:  SafeFindFiles J:\Unreal Projects\SsPlayerExamples\Content\Splash Splash.bmp False
+InternalUtils.FindFiles:  FindFiles J:\Unreal Projects\SsPlayerExamples\Content\Splash Splash.bmp False
+InternalUtils.SafeFileExists:  SafeFileExists C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\Win64\BootstrapPackagedGame-Win64-Shipping.exe=True
+InternalUtils.SafeCreateDirectory:  SafeCreateDirectory J:\Unreal Projects\SsPlayerExamples\Intermediate\Staging
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\Win64\BootstrapPackagedGame-Win64-Shipping.exe J:\Unreal Projects\SsPlayerExamples\Intermediate\Staging\SsPlayerExamples.exe
+InternalUtils.SafeFileExists:  SafeFileExists J:\Unreal Projects\SsPlayerExamples\Build\Windows\Application.ico=False
+InternalUtils.SafeFindFiles:  SafeFindFiles J:\Unreal Projects\SsPlayerExamples\Intermediate\Staging SsPlayerExamples.exe False
+InternalUtils.FindFiles:  FindFiles J:\Unreal Projects\SsPlayerExamples\Intermediate\Staging SsPlayerExamples.exe False
+InternalUtils.SafeFindFiles:  SafeFindFiles C:\Program Files (x86)\Epic Games\4.14\Engine\Build Build.version False
+InternalUtils.FindFiles:  FindFiles C:\Program Files (x86)\Epic Games\4.14\Engine\Build Build.version False
+Project.CleanStagingDirectory: Cleaning Stage Directory: J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor
+InternalUtils.SafeDeleteDirectory:  SafeDeleteDirectory J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor
+InternalUtils.RecursivelyDeleteDirectory:  RecursivelyDeleteDirectory J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor
+InternalUtils.SafeDeleteEmptyDirectory:  SafeDeleteEmptyDirectory J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor
+InternalUtils.SafeWriteAllLines:  SafeWriteAllLines G:\Users\KENE\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+(x86)+Epic+Games+4.14\FinalCopy_NonUFSFiles.txt
+InternalUtils.SafeWriteAllLines:  SafeWriteAllLines G:\Users\KENE\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+(x86)+Epic+Games+4.14\FinalCopy_NonUFSFilesDebug.txt
+InternalUtils.SafeWriteAllLines:  SafeWriteAllLines G:\Users\KENE\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+(x86)+Epic+Games+4.14\FinalCopy_UFSFiles.txt
+Project.CopyManifestFilesToStageDir: Copying NonUFSFiles to staging directory: J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor
+InternalUtils.SafeDeleteFile:  SafeDeleteFile J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Manifest_NonUFSFiles_Win64.txt
+InternalUtils.SafeCreateDirectory:  SafeCreateDirectory J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\Win64
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\Win64\UE4Game.exe J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\Win64\UE4Game.exe
+InternalUtils.SafeCopyFile:  SafeCopyFile J:\Unreal Projects\SsPlayerExamples\Intermediate\Staging\SsPlayerExamples.exe J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\SsPlayerExamples.exe
+InternalUtils.SafeCreateDirectory:  SafeCreateDirectory J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PxFoundationPROFILE_x64.dll J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PxFoundationPROFILE_x64.dll
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PxPvdSDKPROFILE_x64.dll J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PxPvdSDKPROFILE_x64.dll
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PhysX3PROFILE_x64.dll J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PhysX3PROFILE_x64.dll
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PhysX3CookingPROFILE_x64.dll J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PhysX3CookingPROFILE_x64.dll
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PhysX3CommonPROFILE_x64.dll J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PhysX3CommonPROFILE_x64.dll
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\APEX_ClothingPROFILE_x64.dll J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\APEX_ClothingPROFILE_x64.dll
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\APEX_DestructiblePROFILE_x64.dll J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\APEX_DestructiblePROFILE_x64.dll
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\APEX_LegacyPROFILE_x64.dll J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\APEX_LegacyPROFILE_x64.dll
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\ApexFrameworkPROFILE_x64.dll J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\ApexFrameworkPROFILE_x64.dll
+InternalUtils.SafeCreateDirectory:  SafeCreateDirectory J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\Ogg\Win64\VS2015
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\ThirdParty\Ogg\Win64\VS2015\libogg_64.dll J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\Ogg\Win64\VS2015\libogg_64.dll
+InternalUtils.SafeCreateDirectory:  SafeCreateDirectory J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbis_64.dll J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbis_64.dll
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbisfile_64.dll J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbisfile_64.dll
+InternalUtils.SafeCreateDirectory:  SafeCreateDirectory J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\OpenVR\OpenVRv1_0_2\Win64
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\ThirdParty\OpenVR\OpenVRv1_0_2\Win64\openvr_api.dll J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\OpenVR\OpenVRv1_0_2\Win64\openvr_api.dll
+InternalUtils.SafeCreateDirectory:  SafeCreateDirectory J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Build
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Build\Build.version J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Build\Build.version
+InternalUtils.SafeWriteAllLines:  SafeWriteAllLines J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Manifest_NonUFSFiles_Win64.txt
+InternalUtils.SafeFileExists:  SafeFileExists J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Manifest_NonUFSFiles_Win64.txt=True
+InternalUtils.SafeCopyFile:  SafeCopyFile J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Manifest_NonUFSFiles_Win64.txt G:\Users\KENE\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+(x86)+Epic+Games+4.14\Manifest_NonUFSFiles_Win64.txt
+Project.CopyManifestFilesToStageDir: Copying DebugFiles to staging directory: J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor
+InternalUtils.SafeDeleteFile:  SafeDeleteFile J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Manifest_DebugFiles_Win64.txt
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\Win64\UE4Game.pdb J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\Win64\UE4Game.pdb
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PxFoundationPROFILE_x64.pdb J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PxFoundationPROFILE_x64.pdb
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PxPvdSDKPROFILE_x64.pdb J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PxPvdSDKPROFILE_x64.pdb
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PhysX3PROFILE_x64.pdb J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PhysX3PROFILE_x64.pdb
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PhysX3CookingPROFILE_x64.pdb J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PhysX3CookingPROFILE_x64.pdb
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PhysX3CommonPROFILE_x64.pdb J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PhysX3CommonPROFILE_x64.pdb
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\APEX_ClothingPROFILE_x64.pdb J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\APEX_ClothingPROFILE_x64.pdb
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\APEX_DestructiblePROFILE_x64.pdb J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\APEX_DestructiblePROFILE_x64.pdb
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\APEX_LegacyPROFILE_x64.pdb J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\APEX_LegacyPROFILE_x64.pdb
+InternalUtils.SafeCopyFile:  SafeCopyFile C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\ApexFrameworkPROFILE_x64.pdb J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\ApexFrameworkPROFILE_x64.pdb
+InternalUtils.SafeWriteAllLines:  SafeWriteAllLines J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Manifest_DebugFiles_Win64.txt
+InternalUtils.SafeFileExists:  SafeFileExists J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Manifest_DebugFiles_Win64.txt=True
+InternalUtils.SafeCopyFile:  SafeCopyFile J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Manifest_DebugFiles_Win64.txt G:\Users\KENE\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+(x86)+Epic+Games+4.14\Manifest_DebugFiles_Win64.txt
+Project.CopyBuildToStagingDirectory: ********** STAGE COMMAND COMPLETED **********
+InternalUtils.SafeFileExists:  SafeFileExists J:\Unreal Projects\SsPlayerExamples\SsPlayerExamples.uproject=True
+InternalUtils.SafeFileExists:  SafeFileExists J:\Unreal Projects\SsPlayerExamples\SsPlayerExamples.uproject=True
+InternalUtils.SafeCreateDirectory:  SafeCreateDirectory J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor
+Project.LogDeploymentContext:  Deployment Context **************
+Project.LogDeploymentContext:  ArchiveDirectory = WindowsNoEditor
+Project.LogDeploymentContext:  RawProjectPath = J:\Unreal Projects\SsPlayerExamples\SsPlayerExamples.uproject
+Project.LogDeploymentContext:  IsCodeBasedUprojectFile = False
+Project.LogDeploymentContext:  DedicatedServer = False
+Project.LogDeploymentContext:  Stage = True
+Project.LogDeploymentContext:  StageTargetPlatform = Win64
+Project.LogDeploymentContext:  LocalRoot = C:\Program Files (x86)\Epic Games\4.14
+Project.LogDeploymentContext:  ProjectRoot = J:\Unreal Projects\SsPlayerExamples
+Project.LogDeploymentContext:  PlatformDir = Win64
+Project.LogDeploymentContext:  StageProjectRoot = J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\SsPlayerExamples
+Project.LogDeploymentContext:  ShortProjectName = SsPlayerExamples
+Project.LogDeploymentContext:  StageDirectory = J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor
+Project.LogDeploymentContext:  SourceRelativeProjectRoot = SsPlayerExamples
+Project.LogDeploymentContext:  RelativeProjectRootForStage = SsPlayerExamples
+Project.LogDeploymentContext:  RelativeProjectRootForUnrealPak = SsPlayerExamples
+Project.LogDeploymentContext:  ProjectArgForCommandLines = ../../../SsPlayerExamples/SsPlayerExamples.uproject
+Project.LogDeploymentContext:  RuntimeRootDir = J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor
+Project.LogDeploymentContext:  RuntimeProjectRootDir = J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\SsPlayerExamples
+Project.LogDeploymentContext:  UProjectCommandLineArgInternalRoot = ../../../
+Project.LogDeploymentContext:  PakFileInternalRoot = ../../../
+Project.LogDeploymentContext:  UnrealFileServerInternalRoot = ../../../
+Project.LogDeploymentContext:  PlatformUsesChunkManifests = False
+Project.LogDeploymentContext:  End Deployment Context **************
+Project.Package: ********** PACKAGE COMMAND STARTED **********
+Project.Package: ********** PACKAGE COMMAND COMPLETED **********
+InternalUtils.SafeFileExists:  SafeFileExists J:\Unreal Projects\SsPlayerExamples\SsPlayerExamples.uproject=True
+InternalUtils.SafeFileExists:  SafeFileExists J:\Unreal Projects\SsPlayerExamples\SsPlayerExamples.uproject=True
+Project.Deploy: ********** DEPLOY COMMAND STARTED **********
+InternalUtils.SafeFileExists:  SafeFileExists J:\Unreal Projects\SsPlayerExamples\SsPlayerExamples.uproject=True
+InternalUtils.SafeCreateDirectory:  SafeCreateDirectory J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor
+Project.LogDeploymentContext:  Deployment Context **************
+Project.LogDeploymentContext:  ArchiveDirectory = WindowsNoEditor
+Project.LogDeploymentContext:  RawProjectPath = J:\Unreal Projects\SsPlayerExamples\SsPlayerExamples.uproject
+Project.LogDeploymentContext:  IsCodeBasedUprojectFile = False
+Project.LogDeploymentContext:  DedicatedServer = False
+Project.LogDeploymentContext:  Stage = True
+Project.LogDeploymentContext:  StageTargetPlatform = Win64
+Project.LogDeploymentContext:  LocalRoot = C:\Program Files (x86)\Epic Games\4.14
+Project.LogDeploymentContext:  ProjectRoot = J:\Unreal Projects\SsPlayerExamples
+Project.LogDeploymentContext:  PlatformDir = Win64
+Project.LogDeploymentContext:  StageProjectRoot = J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\SsPlayerExamples
+Project.LogDeploymentContext:  ShortProjectName = SsPlayerExamples
+Project.LogDeploymentContext:  StageDirectory = J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor
+Project.LogDeploymentContext:  SourceRelativeProjectRoot = SsPlayerExamples
+Project.LogDeploymentContext:  RelativeProjectRootForStage = SsPlayerExamples
+Project.LogDeploymentContext:  RelativeProjectRootForUnrealPak = SsPlayerExamples
+Project.LogDeploymentContext:  ProjectArgForCommandLines = ../../../SsPlayerExamples/SsPlayerExamples.uproject
+Project.LogDeploymentContext:  RuntimeRootDir = J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor
+Project.LogDeploymentContext:  RuntimeProjectRootDir = J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\SsPlayerExamples
+Project.LogDeploymentContext:  UProjectCommandLineArgInternalRoot = ../../../
+Project.LogDeploymentContext:  PakFileInternalRoot = ../../../
+Project.LogDeploymentContext:  UnrealFileServerInternalRoot = ../../../
+Project.LogDeploymentContext:  PlatformUsesChunkManifests = False
+Project.LogDeploymentContext:  End Deployment Context **************
+Platform.Deploy: WARNING: Win64 does not implement Deploy...
+Project.Deploy: ********** DEPLOY COMMAND COMPLETED **********
+InternalUtils.SafeFileExists:  SafeFileExists J:\Unreal Projects\SsPlayerExamples\SsPlayerExamples.uproject=True
+Project.Run: ********** RUN COMMAND STARTED **********
+Project.RunInternal: Waiting a few seconds for the server to start...
+Project.RunInternal: Starting Client....
+InternalUtils.SafeFileExists:  SafeFileExists J:\Unreal Projects\SsPlayerExamples\SsPlayerExamples.uproject=True
+InternalUtils.SafeCreateDirectory:  SafeCreateDirectory J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor
+Project.LogDeploymentContext:  Deployment Context **************
+Project.LogDeploymentContext:  ArchiveDirectory = WindowsNoEditor
+Project.LogDeploymentContext:  RawProjectPath = J:\Unreal Projects\SsPlayerExamples\SsPlayerExamples.uproject
+Project.LogDeploymentContext:  IsCodeBasedUprojectFile = False
+Project.LogDeploymentContext:  DedicatedServer = False
+Project.LogDeploymentContext:  Stage = True
+Project.LogDeploymentContext:  StageTargetPlatform = Win64
+Project.LogDeploymentContext:  LocalRoot = C:\Program Files (x86)\Epic Games\4.14
+Project.LogDeploymentContext:  ProjectRoot = J:\Unreal Projects\SsPlayerExamples
+Project.LogDeploymentContext:  PlatformDir = Win64
+Project.LogDeploymentContext:  StageProjectRoot = J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\SsPlayerExamples
+Project.LogDeploymentContext:  ShortProjectName = SsPlayerExamples
+Project.LogDeploymentContext:  StageDirectory = J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor
+Project.LogDeploymentContext:  SourceRelativeProjectRoot = SsPlayerExamples
+Project.LogDeploymentContext:  RelativeProjectRootForStage = SsPlayerExamples
+Project.LogDeploymentContext:  RelativeProjectRootForUnrealPak = SsPlayerExamples
+Project.LogDeploymentContext:  ProjectArgForCommandLines = ../../../SsPlayerExamples/SsPlayerExamples.uproject
+Project.LogDeploymentContext:  RuntimeRootDir = J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor
+Project.LogDeploymentContext:  RuntimeProjectRootDir = J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\SsPlayerExamples
+Project.LogDeploymentContext:  UProjectCommandLineArgInternalRoot = ../../../
+Project.LogDeploymentContext:  PakFileInternalRoot = ../../../
+Project.LogDeploymentContext:  UnrealFileServerInternalRoot = ../../../
+Project.LogDeploymentContext:  PlatformUsesChunkManifests = False
+Project.LogDeploymentContext:  End Deployment Context **************
+InternalUtils.SafeFileExists:  SafeFileExists G:\Users\KENE\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+(x86)+Epic+Games+4.14\Server.log=True
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Waiting for server to start....
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Starting Client....
+InternalUtils.SafeFileExists:  SafeFileExists J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\Win64\UE4Game.exe=True
+CommandUtils.Run: Run: J:\Unreal Projects\SsPlayerExamples\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\Win64\UE4Game.exe ../../../SsPlayerExamples/SsPlayerExamples.uproject  -filehostip=192.168.23.1+192.168.0.8+2001:0:34a1:d27:20c9:1304:2020:b937+127.0.0.1 -allowcaching -stdout -abslog="G:\Users\KENE\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+(x86)+Epic+Games+4.14\Client.log" -Messaging -nomcp -Windowed -CrashForUAT -SessionId=60C7EB314D0B25D0C475AFB6A7AEFBE0 -SessionOwner="KENE" -SessionName="HOME-PC" 
+UE4Game: 
+UE4Game: LogInit:Display: Running engine for game: SsPlayerExamples
+UE4Game: LogInit:Display: Project file not found: ../../../SsPlayerExamples/SsPlayerExamples.uproject
+UE4Game: LogInit:Display: 	Attempting to find via project info helper.
+UE4Game: LogNetworkPlatformFile:Warning: Created transport for 192.168.23.1.
+UE4Game: LogNetworkPlatformFile:Display:     Server EngineDir = ../../../Engine/
+UE4Game: LogNetworkPlatformFile:Display:      Local EngineDir = ../../../Engine/
+UE4Game: LogNetworkPlatformFile:Display:     Server GameDir   = J:/Unreal Projects/SsPlayerExamples/
+UE4Game: LogNetworkPlatformFile:Display:      Local GameDir   = ../../../SsPlayerExamples/
+UE4Game: LogNetworkPlatformFile:Display: Cooked version file missing: ../../../SsPlayerExamples/Saved/Config/CookedVersion.txt
+UE4Game: 
+UE4Game: LogInit:Display: RandInit(-1809181252) SRandInit(-1809181252).LogModuleManager:Warning: ModuleManager: Module 'XMPP' not found - its StaticallyLinkedModuleInitializers function is null.
+UE4Game: 
+UE4Game: LogModuleManager:Warning: ModuleManager: Module 'XMPP' not found - its StaticallyLinkedModuleInitializers function is null.LogModuleManager:Warning: ModuleManager: Module 'SpriteStudio5' not found - its StaticallyLinkedModuleInitializers function is null.
+UE4Game: 
+<>c__DisplayClass62_0.<RunClientWithServer>b__0: Client exited, stopping server....
+UE4Game: LogModuleManager:Warning: ModuleManager: Module 'SpriteStudio5' not found - its StaticallyLinkedModuleInitializers function is null.
+ProcessResult.StopProcess:  Process UE4Editor successfully exited.
+Project.RunClientWithServer: Server exited....
+Project.Run: ********** RUN COMMAND COMPLETED **********
+Automation.Execute: BUILD SUCCESSFUL
+Program.Main: AutomationTool exiting with ExitCode=0 (Success)
